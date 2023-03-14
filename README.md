@@ -19,3 +19,16 @@ Go to root project
 * To run tests in headless mode: pytest tests -v -s --headless=True
 * To run tests with specific browser (chrome by default): pytest tests -v -s --browser=chrome 
 * To run tests with specific url: pytest tests --url=http:example.com
+
+*Sources & References:*
+1. https://python.org/
+2. https://docs.pytest.org/
+3. https://www.linkedin.com/learning (python course on linkedin)
+4. https://selenium.dev
+4. https://toolsqa.com
+5. https://medium.com/
+6. https://stackoverflow.com/
+7. https://realpython.com/
+8. https://testdriven.io
+9. https://www.youtube.com/@coreyms
+10. https://www.freecodecamp.org/
