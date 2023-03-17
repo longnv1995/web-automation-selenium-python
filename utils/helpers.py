@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 import requests
 
 from http import HTTPStatus
@@ -54,5 +55,7 @@ def sorted_list(items: list, reverse=False):
     return all(items[i] <= items[i+1] for i in range(len(items) - 1))
 
 
-
+def load_env_file():
+    get_env_data = load_dotenv()
+    return get_env_data
 
