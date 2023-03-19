@@ -254,7 +254,7 @@ class BasePage(object):
         self._driver.execute_script('arguments[0].scrollIntoViewIfNeeded(true);', element)
 
     def wait_for_js_to_load(self):
-        self._wait.until(lambda _driver: _driver.execute_script('return document.readyState') == 'complete')
+        self._wait.until(lambda _driver: _driver.execute_script('return document.readyState == complete'))
 
     def wait_for_jquery_to_load(self):
         self._wait.until(lambda _driver: _driver.execute_script('return jQuery.active == 0'))
